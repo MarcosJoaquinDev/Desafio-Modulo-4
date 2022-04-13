@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <link rel="stylesheet" href="./components/header.css">
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./js/portfolio.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <section class="main">
+        <div class="main__hero">
+            <header class="header"></header>
+            <main class="main__hero__welcome">
+                <h1 class="main__hero__welcome-title">Portofolio</h1>
+            </main>
+        </div>
+    </section>
+    <section class="portfolio"></section>
+    <template id="portfolio__article-template">
+        <article class="portfolio__articles">
+            <img class="portfolio__articles__work-image" src="" alt="">
+            <h3 class="portfolio__articles__work-title"></h3>
+            <p class="portfolio__articles__work-description"></p>
+            <a class="portfolio__articles__work-link" href="">Ver Mas</a>
+        </article>
+    </template>
+    <section class="footer"></section>
+</body>
+</html>

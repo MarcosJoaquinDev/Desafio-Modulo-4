@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio modulo 4</title>
+    <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./components/form.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/form.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./js/services.js"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <section class="main">
+        <div class="main__hero">
+            <header class="header"></header>
+            <main class="main__hero__welcome">
+                <h1 class="main__hero__welcome-title"></h1>
+                <p class="main__hero__welcome-text"></p>
+            </main>
+        </div>
+    </section>
+    <section class="about-me">
+        <img  class="about-me__container__image"  src="./images/worker.png" alt="">
+        <div class="about-me__container">
+            <h2 class="about-me__title"></h2>
+            <p class="about-me__text"></p>
+        </div>
+    </section>
+    <section class="services">
+        <h2 class="services__title">Mis servicios</h2>
+        <div class="services__work"></div>
+        <template id="services__work__item-template">
+            <article class="services__work__item">
+                <img class="services__work__item-image" src="" alt="logo-worker">
+                <h3 class="services__work__item-title"></h3>
+                <p class="services__work__item-text"></p>
+            </article>
+        </template>
+    </section>
+    <section class="contact"></section>
+    <section class="footer"></section>
+</body>
+</html>

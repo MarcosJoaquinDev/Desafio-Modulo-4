@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins";
+}
+.main__hero__welcome{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main__hero__welcome-title{
+    margin: 0;
+    font-size: 48px;
+}
+@media (min-width: 768px) {
+    .main__hero__welcome{
+        align-items: flex-start;
+    }
+    .main__hero__welcome-title{
+        margin-left: 100px;
+    }
+}
+.main__hero__welcome-text{
+    margin: 0;
+    font-size: 32px;
+}
+
+.main,
+.main__hero{
+    width: 100%;
+    height:100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  .main__hero{
+      background: linear-gradient(-45deg,#000, #155db1, violet, #81c9fa);
+      background-size: 400% 400%;
+      animation: gradient 8s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+.portfolio{
+    width: 100%;
+    padding: 50px 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    background-color: #2d2c3f;
+    box-shadow: 0 0 15px #ddd;
+    color:antiquewhite;
+    font-weight: bold;
+    background-color: #81c9fa;
+    color: #2c2c2c;
+}
+@media (min-width: 768px) {
+    .portfolio{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: center;
+        gap: 50px;
+        align-items: baseline;
+    }
+}
+.portfolio__articles{
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border: 0.1px solid azure;
+    border-radius: 4px;
+}
+@media (min-width: 768px) {
+    .portfolio__articles{
+        width: 348px;
+    }
+}
+.portfolio__articles__work-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.portfolio__articles__work-title{
+    font-size: 32px;
+    margin: 0;
+}
+.portfolio__articles__work-description{
+    font-size: 16px;
+    text-align: center;
+}
+.portfolio__articles__work-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+}
+.footer{
+    box-shadow: 0 0 15px #ddd;
+}
